@@ -55,8 +55,8 @@ const Home = () => {
 
   const closeMenu = () => setIsMenuOpen(false);
   const menuItems = [
-    { href: "https://uptime.tblstudio.cn/dashboard", label: "状态" },
-    { href: "https://cvdocs.tblstudio.cn/", label: "small 教程" },
+    { href: "https://uptime.crashvibe.cn/dashboard", label: "状态" },
+    { href: "https://cvdocs.crashvibe.cn/", label: "small 教程" },
     { href: "https://qm.qq.com/q/J9q03TFrkO", label: "速速加群" },
   ];
 
@@ -73,7 +73,7 @@ const Home = () => {
   }, []);
 
   const copyIP = () => {
-    navigator.clipboard.writeText("game.tblstudio.cn");
+    navigator.clipboard.writeText("game.crashvibe.cn");
     alert("已复制服务器 IP!");
   };
 
@@ -154,13 +154,13 @@ const Home = () => {
 
           <div className="flex flex-col md:flex-row justify-center gap-y-4 gap-x-4 mb-6 md:mb-8">
             <a
-              href="https://cvdocs.tblstudio.cn/%E5%85%A5%E9%97%A8/how2join"
+              href="https://cvdocs.crashvibe.cn/%E5%85%A5%E9%97%A8/how2join"
               className="px-6 py-3 md:py-2 bg-black rounded-lg hover:bg-opacity-80 transition-all border border-gray-600 text-sm md:text-base"
             >
               加入服务器
             </a>
             <a
-              href="https://cvdocs.tblstudio.cn/intro"
+              href="https://cvdocs.crashvibe.cn/intro"
               className="px-6 py-3 md:py-2 bg-blue-600 rounded-lg hover:bg-opacity-80 transition-all text-sm md:text-base"
             >
               服务器介绍
@@ -178,7 +178,7 @@ const Home = () => {
             <div className="text-xs md:text-base">
               Server IP:{" "}
               <span className="text-blue-400 select-all break-all">
-                game.tblstudio.cn
+                game.crashvibe.cn
               </span>
               <span className="ml-2 text-gray-500 text-xs">(点击复制)</span>
             </div>
