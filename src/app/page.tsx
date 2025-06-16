@@ -57,7 +57,7 @@ const Home = () => {
   const menuItems = [
     { href: "https://uptime.crashvibe.cn/dashboard", label: "状态" },
     { href: "https://cvdocs.crashvibe.cn/", label: "small 教程" },
-    { href: "https://qm.qq.com/q/J9q03TFrkO", label: "速速加群" },
+    { href: "https://qm.qq.com/q/IiqH6I75e0", label: "速速加群" },
   ];
 
   useEffect(() => {
